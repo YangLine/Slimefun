@@ -9,4 +9,6 @@
 
 #### :)
 AccountUndefined那个人才吧PR提到隔壁汉化的仓库去了<br>
-无语
+无语<br>
+↑网不好啊
+Github众所周知卡死人
