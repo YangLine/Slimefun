@@ -9,13 +9,13 @@
 
     <!-- Our default version will be UNOFFICIAL, this will prevent auto updates -->
     <!-- from overriding our local test file -->
-    <version>5.0-SNAPSHOT</version>
+    <version>m4.9-beta-SNAPSHOT</version>
     <inceptionYear>2013</inceptionYear>
     <packaging>jar</packaging>
 
     <!-- Project Info -->
-    <description>Slimefun is a Spigot/Paper plugin that simulates a modpack-like atmosphere by adding over 500 new items and recipes to your Minecraft Server.</description>
-    <url>https://github.com/Slimefun/Slimefun4</url>
+    <description>Slimefun with Meme Chinese</description>
+    <url>https://github.com/YangLine/Slimefun</url>
 
     <properties>
         <!-- UTF-8 is our standard encoding for source files -->
@@ -33,7 +33,7 @@
     <issueManagement>
         <!-- Bug Tracker -->
         <system>GitHub Issues</system>
-        <url>https://github.com/Slimefun/Slimefun4/issues</url>
+        <url>https://github.com/YangLine/Slimefun/issues</url>
     </issueManagement>
 
     <licenses>
