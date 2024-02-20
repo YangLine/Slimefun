@@ -119,7 +119,7 @@ class PlayerLanguageOption implements SlimefunGuideOption<String> {
                                         + Slimefun.getLocalization()
                                                 .getMessage(p, "guide.languages.translations.lore")),
                         (pl, slot, item, action) -> {
-                            ChatUtils.sendURL(pl, "https://slimefun-wiki.guizhanss.cn/Translating-Slimefun");
+                            ChatUtils.sendURL(pl, "https://doc.craftspace.top/slimefun/Translating");
                             pl.closeInventory();
                             return false;
                         });

@@ -179,7 +179,7 @@ public final class SlimefunGuideSettings {
 
         menu.addMenuClickHandler(8, (pl, slot, item, action) -> {
             pl.closeInventory();
-            ChatUtils.sendURL(pl, "https://slimefun-wiki.guizhanss.cn/");
+            ChatUtils.sendURL(pl, "https://doc.craftspace.top/slimefun/");
             return false;
         });
 
