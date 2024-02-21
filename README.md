@@ -1,5 +1,7 @@
 # Slimefun 梗体中文版
 
+这个版本添加了一些梗体中文翻译，使用@StarWishsama的汉化修改而成，毫无技术可言，控制台的报错无视即可。（别问，问的就是懒
+
 原作者仓库 [**单击此处**](https://github.com/Slimefun/Slimefun4/)
 
 原汉化作者仓库 [**单击此处**](https://github.com/StarWishsama/Slimefun4)
