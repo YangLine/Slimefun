@@ -678,7 +678,7 @@ public final class SlimefunItems {
 
     /*		 Weapons 		*/
     public static final SlimefunItemStack GRANDMAS_WALKING_STICK =
-            new SlimefunItemStack("GRANDMAS_WALKING_STICK", Material.STICK, "&7你奶奶的拐杖", "", "&7&o“我保证，我真的没在骂人”");
+            new SlimefunItemStack("GRANDMAS_WALKING_STICK", Material.STICK, "&7你奶奶的拐杖", "&7&o“我保证，我真的没在骂人”");
     public static final SlimefunItemStack GRANDPAS_WALKING_STICK =
             new SlimefunItemStack("GRANDPAS_WALKING_STICK", Material.STICK, "&7爷爷的制杖", "&7&o“一杖传三代，人走杖还在”");
     public static final SlimefunItemStack SWORD_OF_BEHEADING = new SlimefunItemStack(
@@ -759,7 +759,7 @@ public final class SlimefunItems {
             "",
             "&9+ 夜视效果");
     public static final SlimefunItemStack GLOWSTONE_BOOTS = new SlimefunItemStack(
-            "GLOWSTONE_BOOTS", Material.LEATHER_BOOTS, Color.YELLOW, "&e&l萤石靴子", "", "&a&o像太阳一样闪耀!", "", "&9+ 夜视效果", "&7&o“戴上这玩意不是应该脚发光吗？”", "&7&o哪那么多问题？", "&7&oMC的哲学你少问，", "&7&o穿上就完事了”");
+            "GLOWSTONE_BOOTS", Material.LEATHER_BOOTS, Color.YELLOW, "&e&l萤石靴子", "", "&a&o像太阳一样闪耀!", "", "&9+ 夜视效果", "&7&o“戴上这玩意不是应该脚发光吗？”", "&7&o“哪那么多问题？", "&7&oMC的哲学你少问，", "&7&o穿上就完事了”");
     public static final SlimefunItemStack RAINBOW_LEATHER =
             new SlimefunItemStack("RAINBOW_LEATHER", Material.RABBIT_HIDE, Color.FUCHSIA, "&d彩虹皮革", "", "&f用于合成彩虹装备", "&7&o“直接重命名jeb不行吗？”");
     public static final SlimefunItemStack RAINBOW_HELMET = new SlimefunItemStack(
@@ -1091,9 +1091,9 @@ public final class SlimefunItems {
             "&7主人: &bNone",
             "",
             "&e右键&7 以绑定你的所有研究",
-            "&7&o整整1TB",
             "",
-            "&e右键&7 以获得前任主人的所有研究");
+            "&e右键&7 以获得前任主人的所有研究",
+            "&7&o整整1TB");
     public static final SlimefunItemStack HARDENED_GLASS =
             new SlimefunItemStack("HARDENED_GLASS", Material.LIGHT_GRAY_STAINED_GLASS, "&7钢化玻璃", "", "&r可以抵抗爆炸");
     public static final SlimefunItemStack WITHER_PROOF_OBSIDIAN =
@@ -1229,7 +1229,7 @@ public final class SlimefunItems {
             new SlimefunItemStack("FERROSILICON", Material.IRON_INGOT, "&b硅铁");
     /*		Alloy (Iron + Gold)			*/
     public static final SlimefunItemStack GILDED_IRON =
-            new SlimefunItemStack("GILDED_IRON", Material.GOLD_INGOT, "&6&l镀金铁锭");
+            new SlimefunItemStack("GILDED_IRON", Material.GOLD_INGOT, "&6&l镀金铁锭", "", "&7&o人话：假的");
     /*		Alloy (Redstone + Ferrosilicon)	*/
     public static final SlimefunItemStack REDSTONE_ALLOY =
             new SlimefunItemStack("REDSTONE_ALLOY", Material.BRICK, "&c红石合金锭");
@@ -1260,7 +1260,7 @@ public final class SlimefunItems {
     public static final SlimefunItemStack GOLD_20K =
             new SlimefunItemStack("GOLD_20K", Material.GOLD_INGOT, "&r金锭 &7(20K)");
     public static final SlimefunItemStack GOLD_22K =
-            new SlimefunItemStack("GOLD_22K", Material.GOLD_INGOT, "&r金锭 &7(22)");
+            new SlimefunItemStack("GOLD_22K", Material.GOLD_INGOT, "&r金锭 &7(22K)");
     public static final SlimefunItemStack GOLD_24K =
             new SlimefunItemStack("GOLD_24K", Material.GOLD_INGOT, "&r金锭 &7(24K足金)");
 
@@ -1744,9 +1744,9 @@ public final class SlimefunItems {
             "LAVA_GENERATOR",
             HeadTexture.GENERATOR,
             "&4岩浆发电机",
-            "&7&o“需要放在沿江大道旁边吗？”",
             "",
             LoreBuilder.machine(MachineTier.AVERAGE, MachineType.GENERATOR),
+            "&7&o“需要放在沿江大道旁边吗？”",
             LoreBuilder.powerBuffer(512),
             LoreBuilder.powerPerSecond(20));
     public static final SlimefunItemStack LAVA_GENERATOR_2 = new SlimefunItemStack(
@@ -1914,8 +1914,8 @@ public final class SlimefunItems {
             "SMALL_CAPACITOR",
             HeadTexture.CAPACITOR_25,
             "&a小型储能电容",
-            "77&o绿波电龙",
             LoreBuilder.range(6),
+            "&7&o绿波电龙",
             "",
             LoreBuilder.machine(MachineTier.BASIC, MachineType.CAPACITOR),
             "&8\u21E8 &e\u26A1 &7128 J 可储存");
@@ -1939,7 +1939,6 @@ public final class SlimefunItems {
             "LARGE_CAPACITOR",
             HeadTexture.CAPACITOR_25,
             "&a巨型储能电容",
-            "&7&o大水塘",
             LoreBuilder.range(6),
             "",
             LoreBuilder.machine(MachineTier.GOOD, MachineType.CAPACITOR),
@@ -1957,6 +1956,7 @@ public final class SlimefunItems {
             HeadTexture.CAPACITOR_25,
             "&a终极储能电容",
             LoreBuilder.range(6),
+            "&7&o大水塘",
             "",
             LoreBuilder.machine(MachineTier.END_GAME, MachineType.CAPACITOR),
             LoreBuilder.powerBuffer(524288));
