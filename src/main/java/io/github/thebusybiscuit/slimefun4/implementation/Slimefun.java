@@ -442,7 +442,7 @@ public final class Slimefun extends JavaPlugin implements SlimefunAddon, ICompat
 
     @Override
     public String getWikiURL() {
-        return "https://doc.craftspace.top/{0}";
+        return "https://wiki.craftspace.top/{0}";
     }
 
     /**

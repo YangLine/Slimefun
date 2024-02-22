@@ -920,7 +920,7 @@ public class SlimefunItem implements Placeable {
         Validate.notNull(page, "Wiki page cannot be null.");
         // 转换链接
         page = page.replace("#", "?id=");
-        wikiURL = Optional.of("https://doc.craftspace.top/slimefun/" + page);
+        wikiURL = Optional.of("https://wiki.craftspace.top/slimefun/" + page);
     }
 
     /**
