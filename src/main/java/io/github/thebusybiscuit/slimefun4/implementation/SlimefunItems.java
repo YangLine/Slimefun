@@ -1220,7 +1220,7 @@ public final class SlimefunItems {
             new SlimefunItemStack("DAMASCUS_STEEL_INGOT", Material.IRON_INGOT, "&b大马士革钢锭");
     /*		Alloy (大马士革钢 + 硬铝 + Compressed Carbon + Aluminium Bronze)	*/
     public static final SlimefunItemStack HARDENED_METAL_INGOT =
-            new SlimefunItemStack("HARDENED_METAL_INGOT", Material.IRON_INGOT, "&b&l硬化金属", "", "&7&o肝硬化金属");
+            new SlimefunItemStack("HARDENED_METAL_INGOT", Material.IRON_INGOT, "&b&l硬化金属",  "&7&o肝硬化金属");
     /*		Alloy (Hardened Metal + Corinthian Bronze + Solder + Billon + 大马士革钢)	*/
     public static final SlimefunItemStack REINFORCED_ALLOY_INGOT =
             new SlimefunItemStack("REINFORCED_ALLOY_INGOT", Material.IRON_INGOT, "&b&l强化合金锭");
