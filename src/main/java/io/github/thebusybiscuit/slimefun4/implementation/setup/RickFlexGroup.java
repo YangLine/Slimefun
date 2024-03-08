@@ -13,7 +13,10 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.entity.Player;
 
 /**
- * A super ordinary class.
+ * 中国电信超级定制物品
+ * 让你话费倒扣
+ * 网速倒转
+ * 由Yang Line提供独家技术支持
  *
  * @author TheBusyBiscuit
  *
@@ -22,7 +25,7 @@ class RickFlexGroup extends FlexItemGroup {
 
     // Never instantiate more than once.
     RickFlexGroup(@Nonnull NamespacedKey key) {
-        super(key, new CustomItemStack(Material.NETHER_STAR, "&6&l超级神秘物品"), 1);
+        super(key, new CustomItemStack(Material.NETHER_STAR, "&6&l中国电信定制卡"), 1);
     }
 
     // Gonna override this method
